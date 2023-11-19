@@ -1,5 +1,3 @@
-
-
 *{
     margin: 0;
     padding: 0;
@@ -128,10 +126,13 @@ video{
     -webkit-text-stroke: 3px rgb(255, 255, 255);
     position: relative;
     z-index: 1;
+    transition: all linear 0.5s;
+    font-weight: 800;
 }
 
 #scrollerin h4:hover {
     color: #c7ff2e;
+    /* transition: all linear 0.5s; */
     z-index: 2;
 }
 
