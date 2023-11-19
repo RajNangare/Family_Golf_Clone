@@ -131,7 +131,7 @@ video{
 }
 
 #scrollerin h4:hover {
-    color: #c7ff2e !important;
+    color: #c7ff2e;
     z-index: 2;
 }
 
