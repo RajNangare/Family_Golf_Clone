@@ -13,10 +13,11 @@ html, body{
     height: 100%;
     width: 100%;
     
+    
 }
 #nav{
     width: 100%;
-    height: 20%;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -33,7 +34,7 @@ html, body{
     /* font-weight: 5; */
 }
 video{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
     position: fixed;
@@ -97,7 +98,49 @@ video{
     font-weight: 100;
     width: 40%;
 }
+
 #page2{
     width: 100%;
-    height: 100vh;
+    height: 100vh; 
+     
+} 
+
+#scroller {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#scrollerin {
+    display: flex;
+    animation-name: scroll;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#scrollerin h4 {
+    display: inline-block;
+    font-size: 20vh;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+}
+
+#scrollerin h4:hover {
+    color: #c7ff2e !important;
+    z-index: 2;
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(-100%);
+    }
 }

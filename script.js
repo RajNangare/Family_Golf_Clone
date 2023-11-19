@@ -13,8 +13,8 @@ gsap.to("#nav", {
 })
 var crs = document.querySelector("#cursor")
 document.addEventListener("mousemove", function(dets){
-    crs.style.left = dets.x + "px"
-    crs.style.top = dets.y + "px"
+    crs.style.left = dets.x - 7.5 + "px" 
+    crs.style.top = dets.y - 7.5 + "px" 
 })
 var crm = document.querySelector("#bigcursor")
 document.addEventListener("mousemove", function(dets){
