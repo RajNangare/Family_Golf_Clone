@@ -29,7 +29,12 @@ html, body{
 #nav img{
     height: 50%;
     text-transform: uppercase;
+    transition: all linear 0.5s;
     /* font-weight: 5; */
+}
+#nav img:hover{
+    height: 30%;
+    /* transition: all ease-in; */
 }
 #nav h4{
     transition: all linear 0.3s;
@@ -167,6 +172,8 @@ video{
     /* width: 20vw; */
     height: 20vh;
     position: relative;
+    z-index: 2;
+    transition: all linear 0.3s;
 }
 #wrb{
     margin: 0vh 10vw;
@@ -194,6 +201,14 @@ video{
     /* width: 20vw; */
     height: 20vh;
     position: relative;
+    z-index: 2;
+    transition: all linear 0.3s;
+}
+#pics1 img:hover{
+    height: 15vh;
+}
+#pics2 img:hover{
+    height: 15vh;
 }
 #footer{
     margin-top: 20vh;
@@ -211,6 +226,11 @@ video{
     position: absolute;
     height: 10vh;
     margin: 10vh 0vh 0vh 10vw;
+    transition: all linear 0.5s;
+    z-index: 2;
+}
+#footer img:hover{
+    height: 7vh;
 }
 #footer h4{
     font-size: 3vh;
