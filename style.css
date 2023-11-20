@@ -147,3 +147,42 @@ video{
         transform: translate(-100%);
     }
 }
+#aboutus{
+    display: flex;
+    margin: 20vh 10vw;
+    position: relative;
+
+}
+#pics1 img{
+    border-radius: 5%;
+    /* width: 20vw; */
+    height: 20vh;
+    position: relative;
+}
+#wrb{
+    margin: 0vh 10vw;
+    text-align: center;
+    /* padding: 2vh 0vh; */
+    width: 60%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex table-column;
+}
+#aboutus h4{
+    font-size: 50px;
+    margin: 1vh 0vw;
+    font-weight: 900;
+    position: relative;
+}
+#wrb p{
+    font-size: 15px;
+    font-weight: 100;
+    position: relative;
+}
+#pics2 img{
+    border-radius: 5%;
+    /* width: 20vw; */
+    height: 20vh;
+    position: relative;
+}
