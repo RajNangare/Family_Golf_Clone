@@ -44,7 +44,7 @@ video{
     position: fixed;
     height: 15px;
     width: 15px;
-    z-index: 100;
+    z-index: 1;
 }
 #bigcursor{
     background-color: #c7ff2e37;
@@ -52,7 +52,7 @@ video{
     position: fixed;
     height: 500px;
     width: 500px;
-    z-index: 100;
+    z-index: 1;
     filter: blur(50px);
 }
 #main{
@@ -81,9 +81,9 @@ video{
     -webkit-text-stroke: 2px #c7ff2e;
 }
 #page1 h1{
-    font-size: 150px;
+    font-size: 20vh;
     position: relative;
-    width: 60%;
+    width: 60vw;
 }
 
 #page1 h2{
@@ -107,6 +107,7 @@ video{
     display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
+    z-index: 2;
 }
 
 #scrollerin {
@@ -115,6 +116,7 @@ video{
     animation-duration: 50s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    z-index: 2;
 }
 
 #scrollerin h4 {
@@ -125,13 +127,13 @@ video{
     color: transparent;
     -webkit-text-stroke: 3px rgb(255, 255, 255);
     position: relative;
-    z-index: 1;
+    z-index: 2;
     transition: all linear 0.5s;
     font-weight: 800;
 }
 
 #scrollerin h4:hover {
-    color: #c7ff2e;
+    color: #bafd00;
     /* transition: all linear 0.5s; */
     z-index: 2;
 }
